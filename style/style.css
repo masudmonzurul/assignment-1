@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: #FFFFFF;
+    width: 1600px;
+    margin: 1px auto;
+}
+
+
+header nav {
+    width: 1600px;
+    height: 92px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+
+}
+
+header .logo img {
+    width: 139px;
+    height: 60px;
+}
+
+.nav-link ul {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-link ul li {
+    list-style: none;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+    padding: 34px 0;
+}
+
+.btn {
+    background-color: #469165;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    height: 44px;
+    width: 180px;
+    border-radius: 4px;
+    padding: 12px 16px;
+
+}
+
+header .banner {
+    width: 1600px;
+    height: 674px;
+    background: url(../assets/hero-bg.png);
+    padding: 70px 120px 134px 120px;
+}
+
+.circle {
+
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #469165;
+    border: 5px solid #b3dcc3dc;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner .layer-1 {
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: #FFFFFF;
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    color: #469165;
+    text-align: center;
+
+}
+
+.banner .layer-2 {
+    width: 1360px;
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.text-color {
+    color: #469165;
+}
+
+.banner .layer-3 {
+    width: 1360px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner .banner-btn {
+    width: 465px;
+    display: flex;
+    gap: 16px;
+}
+
+.banner-btn button {
+    padding: 12px 16px;
+    border-radius: 4px;
+    height: 52px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.banner-btn .background {
+    background-color: #469165;
+}
+
+.note-section {
+    padding-top: 50px;
+}
+
+.note-section .section-header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #001931;
+}
+
+.note-section .section-header p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #627382;
+}
+
+.card-section {
+    margin: 44px 120px 0 120px;
+    display: flex;
+}
+
+.card-section .card {
+    width: 322px;
+}
+
+.card-section .card img {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: block;
+    margin: 16px auto;
+}
+
+.card-section .card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    line-height: 100%;
+    text-align: center;
+    color: #001931;
+}
+
+.card-section .card p {
+    margin: 16px 24px;
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 20px;
+    text-align: center;
+    color: #627382;
+}
+
+.brain-section {
+    margin: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+.brain-section .pic {
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+.brain-section .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.brain-section .text .text-1 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.brain-section .text .text-2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.brain-section .text .text-3 {
+    color: #627382;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+
+.text .point {
+    display: flex;
+    gap: 16px;
+}
