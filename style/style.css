@@ -24,12 +24,12 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
-
 }
 
 header .logo img {
     width: 139px;
     height: 60px;
+
 }
 
 .nav-link ul {
@@ -323,4 +323,12 @@ footer .copy-right p {
     color: #FAFAFA;
     text-align: center;
     margin-top: 80px;
+}
+
+button:hover {
+    background-color: #173e27;
+}
+
+.background:hover {
+    background-color: #173e27;
 }
