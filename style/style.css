@@ -304,8 +304,13 @@ header .banner {
     justify-content: center;
 }
 
+.early-access-section ul li {
+    list-style-position: inside;
+}
+
 .style-cancel {
     list-style: none;
+
 }
 
 footer {
@@ -319,10 +324,16 @@ footer .pic {
     color: #FFFFFF;
 }
 
+.copy-right {
+    margin-top: 80px;
+    border-top: 1px solid #e5e7eb33;
+}
+
 footer .copy-right p {
+    padding-top: 30px;
     color: #FAFAFA;
     text-align: center;
-    margin-top: 80px;
+
 }
 
 button:hover {
